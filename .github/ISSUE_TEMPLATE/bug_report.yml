@@ -1,0 +1,65 @@
+name: Report a problem
+description: Something in Noduct doesn't work as expected.
+title: "Problem: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Noduct better. **This report is public.** Never attach your documents. Describe the file instead (type, size, number of pages).
+        You can write in English, Portuguese or Spanish.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Tell us what went wrong in your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do right before the problem?
+      placeholder: |
+        1. Opened Merge PDF
+        2. Added two files of about 5 MB each
+        3. Pressed Merge
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool
+      description: The tool's address, for example merge-pdf. Leave empty if it's about the site in general.
+  - type: input
+    id: version
+    attributes:
+      label: Noduct version
+      description: Shown at the bottom of every page, for example v1.0.0.
+  - type: input
+    id: locale
+    attributes:
+      label: Site language
+      description: en, pt-BR or es.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      description: For example, Firefox 140 on Windows 11, or Safari on iPhone.
+  - type: markdown
+    attributes:
+      value: |
+        **Screenshots and videos.** You can drop images or a short screen recording into any box above. Prepare screenshots first on the Feedback page of the site. It removes hidden data such as location and lets you cover private parts. Check videos before attaching. Files other than images, videos and plain text are flagged and may be removed.
+  - type: checkboxes
+    id: no-personal-files
+    attributes:
+      label: Privacy
+      options:
+        - label: I did not attach my documents or anything with personal information.
+          required: true

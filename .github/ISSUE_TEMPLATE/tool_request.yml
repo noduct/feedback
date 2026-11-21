@@ -1,0 +1,34 @@
+name: Request a tool
+description: A tool Noduct doesn't have yet.
+title: "Tool request: "
+labels: [tool-request, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Noduct tools run entirely in your browser. Tell us what you need to do with your files, and we'll check whether it can be done locally.
+        **This request is public.** You can write in English, Portuguese or Spanish.
+  - type: textarea
+    id: description
+    attributes:
+      label: What do you need to do?
+      description: For example, "Turn several photos of receipts into one PDF and make the text searchable".
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Noduct version
+      description: Shown at the bottom of every page.
+  - type: input
+    id: locale
+    attributes:
+      label: Site language
+      description: en, pt-BR or es.
+  - type: checkboxes
+    id: no-personal-files
+    attributes:
+      label: Privacy
+      options:
+        - label: I did not attach my documents or anything with personal information.
+          required: true

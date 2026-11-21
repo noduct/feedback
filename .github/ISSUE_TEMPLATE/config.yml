@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Share an open idea or ask a question
+    url: https://github.com/noduct/feedback/discussions
+    about: Ideas that are not ready to become a request, and questions about using Noduct.
+  - name: Report a security issue privately
+    url: https://github.com/noduct/feedback/security/advisories/new
+    about: Please don't report vulnerabilities in a public issue.
