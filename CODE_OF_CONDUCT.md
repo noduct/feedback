@@ -23,7 +23,7 @@ We want this space to be welcoming and useful for everyone who uses Noduct, what
 
 ## Enforcement
 
-The Noduct team moderates this repository. Depending on the case, we may:
+The maintainers of Noduct moderate this repository. Depending on the case, we may:
 - edit or hide a post;
 - close or lock an issue;
 - limit interactions in the repository;

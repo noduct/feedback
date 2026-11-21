@@ -131,7 +131,7 @@ const COMMENTS = {
   ].join('\n'),
   'unsafe-attachment': [
     'This issue links a file type we don\'t accept for safety reasons. Only images, videos and plain-text logs are allowed.',
-    'Please **edit the issue to remove that file**. A maintainer will review it, and nobody on the team will open it in the meantime.',
+    'Please **edit the issue to remove that file**. It will be reviewed without being opened.',
     '',
     '**pt-BR:** a issue tem um arquivo de um tipo que não aceitamos por segurança. Edite e remova o arquivo; só imagens, vídeos e logs em texto são aceitos.',
     '',

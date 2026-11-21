@@ -2,7 +2,7 @@
 
 Report problems, suggest improvements and follow new versions of [Noduct](https://noduct.app). Noduct's file tools for PDFs, images and everyday tasks run in your browser, so your files are never uploaded.
 
-This repository holds no code. It is the public place where people who use Noduct can talk to the team.
+This repository holds no code. It is the public place where people who use Noduct can share problems and ideas.
 
 ## How to help
 
@@ -27,9 +27,7 @@ The quickest way to report a problem is the **Feedback** page on the site, which
 
 ## What happens next
 
-1. A new issue is labeled `needs-triage`.
-2. We confirm the problem or idea, ask for details if needed, and label it.
-3. When a fix or a new feature ships, it shows up in the next [release](../../releases) with the version number you'll see in the site footer.
+Every report and idea is reviewed as soon as possible and, when it can be done, developed. When something ships, it shows up in the next [release](../../releases) with the version number you'll see in the site footer.
 
 We follow a [code of conduct](CODE_OF_CONDUCT.md). Spam and abusive posts are closed and their authors may be blocked.
 
