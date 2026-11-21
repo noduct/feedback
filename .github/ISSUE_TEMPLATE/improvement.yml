@@ -1,0 +1,38 @@
+name: Suggest an improvement
+description: An idea to make an existing tool or page better.
+title: "Improvement: "
+labels: [improvement, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This suggestion is public.** You can write in English, Portuguese or Spanish.
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like to change?
+      description: Describe the improvement and the situation where you missed it.
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool
+      description: The tool's address, for example split-pdf. Leave empty if it's about the site in general.
+  - type: input
+    id: version
+    attributes:
+      label: Noduct version
+      description: Shown at the bottom of every page.
+  - type: input
+    id: locale
+    attributes:
+      label: Site language
+      description: en, pt-BR or es.
+  - type: checkboxes
+    id: no-personal-files
+    attributes:
+      label: Privacy
+      options:
+        - label: I did not attach my documents or anything with personal information.
+          required: true

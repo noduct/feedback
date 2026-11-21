@@ -1,0 +1,20 @@
+[
+  { "name": "bug", "color": "d73a4a", "description": "Something doesn't work as expected" },
+  { "name": "improvement", "color": "a2eeef", "description": "Make an existing tool or page better" },
+  { "name": "tool-request", "color": "7057ff", "description": "A tool Noduct doesn't have yet" },
+  { "name": "needs-triage", "color": "fbca04", "description": "Waiting for a first look by the team" },
+  { "name": "confirmed", "color": "0e8a16", "description": "Reproduced or accepted by the team" },
+  { "name": "needs-info", "color": "d4c5f9", "description": "We need more details to continue" },
+  { "name": "possible-spam", "color": "b60205", "description": "Flagged by automatic triage for review" },
+  { "name": "unsafe-attachment", "color": "b60205", "description": "Links a file type that is not allowed" },
+  { "name": "duplicate", "color": "cfd3d7", "description": "Already reported" },
+  { "name": "wontfix", "color": "ffffff", "description": "Not planned" },
+  { "name": "released", "color": "0052cc", "description": "Shipped in a published version" },
+  { "name": "tool:merge-pdf", "color": "c5def5", "description": "Merge PDF" },
+  { "name": "tool:split-pdf", "color": "c5def5", "description": "Split PDF" },
+  { "name": "tool:organize-pdf", "color": "c5def5", "description": "Organize PDF" },
+  { "name": "tool:pdf-to-jpg", "color": "c5def5", "description": "PDF to JPG" },
+  { "name": "tool:jpg-to-pdf", "color": "c5def5", "description": "JPG to PDF" },
+  { "name": "tool:scan-to-pdf", "color": "c5def5", "description": "Scan to PDF" },
+  { "name": "area:site", "color": "c5def5", "description": "Home, directory, footer and other site pages" }
+]
